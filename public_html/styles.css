@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 feb. 2022, 23:06:45
+    Author     : Cesar
+*/
+
+.encabezado{
+    text-align:right;
+}
+
+.titulo{
+   text-align:center;
+   color: #37A8A4;
+}
+
+body{
+    width:65%;
+}
+
+.parrafo1{
+   text-align:justify; 
+}
+
+.parrafo2{
+    text-align:justify;
+    font-size:20px;
+    font-family:futura;
+    padding:5%;
+}
+
+.cuadro{
+    border-image:initial; border:1px solid black;
+}
+
+.parrafo3{
+    text-align:right;
+}
+
+.t{
+    color:#7D6608;
+}
+.e{
+    color:#F1C40F;
+}
+.x{
+    color:Black;
+}
+.o{
+    color:#3498DB;
+}
+.d{
+    color:#28B463;
+}
+.c{
+    color:#B03A2E;
+}
+.r{
+    color:#8E44AD;
+}
+.l{
+    color:#E032D0;
+}
+.s{
+    color:#2980B9;
+}
+
+.color1{
+    color:blue;
+}
+.color2{
+    color:#2ECC71;
+}
+.color3{
+    color:Red;
+}
+.color4{
+    color:#F1C40F;
+}
