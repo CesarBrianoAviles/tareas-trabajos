@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 feb. 2022, 21:53:14
+    Author     : Cesar
+*/
+
+.p{
+    width:20%;
+    text-align:center;
+}
+.tabla1{
+    border: 1px solid black;
+    background: white;
+    width: 20%;
+    border-collapse:collapse;
+    text-align:center;
+}
+.tabla1 tr{
+   border:black 1px solid;
+}
+
+.tabla1 td{
+   border:black 1px solid;
+}
+.tabla1 th{
+   border:black 1px solid;
+   background: pink;
+}
+
+.tabla2{
+    border:1px solid;
+    background: white;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+.tabla2 tr, td, th{
+   border:black 1px solid;
+}
+  
+.tabla2 th{
+    background:#B7950B;
+}
+
+.tabla3{
+    border:1px solid;
+    background: white;
+    border-collapse:collapse;
+    text-align:center;
+    
+}
+.tabla3 tr, td, th{
+   border:black 1px solid;
+}
+
+.tabla3 th:nth-child(1) {
+	color: red;
+}
+
+.tabla4{
+    border: 1px solid black;
+    background: white;
+    
+    border-collapse:collapse;
+    text-align:center;
+}
+
+
+
+.tabla4 thead td{
+	height: 80px;
+        width: 80px;
+        background: #BFC9CA;
+        
+}
+
+.tabla4 thead th{
+    background: #839192;
+}
+
+.tabla4 tbody tr:nth-child(4) {
+	height: 40px;
+}

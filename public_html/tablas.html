@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Tablas</title>
+        <link  href="styles.css" rel="stylesheet"/> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="" >
+            <p>Tablas sencillas</p>
+            <table class="tabla1">
+                <thead>
+                    <tr>
+                        <th>clima</th>
+                        <th>numero de dias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>sol</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Nubes y sol</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>Nublado</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Lluvia</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <-<!-- tabla 2 codigo -->
+        <div class="">
+            <p><br><br>Tabla con combinación de columnas</p>
+            <table class="tabla2">
+                <thead>
+                <tr>
+                    <th colspan="4">Diferencias entre el perro y el hombre</th>
+                </tr>
+                 <tr>    
+                <th width="40%">Diferencias</th>
+                <th width="15%">Perro Pequeño</th>
+                <th width="15%">perro Grande</th>
+                <th width="15%">Humanos</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>duracion de crecimiento</td>
+                <td>10 meses</td>
+                <td>18 a 24 meses</td>
+                <td>16 años</td>
+                </tr>
+                <tr>
+                <td>tiempo de gestion</td>
+                <td colspan="2">68 a 63 dias</td>
+                <td>9 meses</td>
+                </tr>
+                <tr>
+                <td>duracion de vida del pelo/cabello</td>
+                <td colspan="2">1 año</td>
+                <td>2 a 7 años</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <--<!-- tabla 3 codigo -->
+        <div class="">
+            <p><br><br>Tabla con combinacion de renglones</p>
+            <table class="tabla3">
+                <tbody>
+                    <tr>
+                <th rowspan="2" colspan="2" width="25%">super oferta de viaje a nueva zelanda</th>
+                <th colspan="2">Hoteles 3 estrellas</th>
+                <th rowspan="2">Hoteles 4 estrellas</th>
+                    </tr>
+                    <tr>
+                        <td>solo alojaamiento</td>
+                        <td>Pension completa</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">1 semana</td>
+                        <td>Avión turista</td>
+                        <td>700 USD</td>
+                        <td>1000 USD</td>
+                        <td rowspan="2">1500 USD</td>
+                    </tr>
+                    <tr>
+                        <td>Avión preferente</td>
+                        <td>850 USD</td>
+                        <td>1150 USD</td>
+                    </tr>
+                    <tr>
+                        <td>2 semanas</td>
+                        <td>&nbsp;</td>
+                        <td>1300 USD</td>
+                        <td>1850 USD</td>
+                        <td>2600 USD</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="">
+           <p><br><br>Tabla con combinación de columnas y renglones</p> 
+           <table class="tabla4">
+               <thead>
+                   <tr>
+                       <th rowspan="2"  >concepto</th>
+                       <th colspan="3">Entradas</th>
+                       <th colspan="3">Salidas</th>
+                       <th colspan="3">Existencias</th>
+                   </tr>
+                   
+                   <tr>
+                       <td >cantidad</td>
+                       <td>Precio</td>
+                       <td>total</td>
+                       <td>cantidad</td>
+                       <td>Precio</td>
+                       <td>total</td>
+                       <td>cantidad</td>
+                       <td>Precio</td>
+                       <td>total</td>
+                   </tr>
+                   
+               </thead>
+               <tbody>
+                   <tr>
+                       <td rowspan="2">compra</td>
+                       <td rowspan="2">300</td>
+                       <td rowspan="2">122</td>
+                       <td rowspan="2">367</td>
+                       <td rowspan="2">&nbsp;</td>
+                       <td>250</td>
+                       <td>1.000</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                       <td>617</td>
+                   </tr>
+                   <tr>
+                       <td>250</td>
+                       <td>1.224</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                       <td>&nbsp;</td>
+                   </tr>
+                   <tr>
+                       <td rowspan="2">Dev. comra(l)</td>
+                       <td rowspan="2" colspan="3">&nbsp;</td>
+                       <td rowspan="2">50</td>
+                       <td rowspan="2">1.224</td>
+                       <td rowspan="2">612</td>
+                       <td>251</td>
+                       <td>100</td>
+                       <td>556</td>
+                   </tr>
+                   <tr>
+                       <td>250</td>
+                       <td>122.000</td>
+                       <td>&nbsp;</td>
+                   </tr>
+               </tbody>
+           </table>
+        </div>
+    </body>
+</html>
