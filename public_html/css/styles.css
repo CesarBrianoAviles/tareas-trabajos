@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 10 mar. 2022, 14:35:05
+    Author     : Cesar
+*/
+
+body{
+    background: url(https://fondosmil.com/fondo/17024.jpg) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.modal-content{
+    background-color:#95A5A6;
+    opacity:.85;
+    padding:0 20px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.user-img img{
+    width:100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px white;
+    border-radius: 50%;
+}
+
+.main-section{
+    margin:0 auto;
+    margin-top: 30%;
+    padding:0;
+}
+
+
+
