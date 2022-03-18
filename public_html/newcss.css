@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 17 mar. 2022, 12:13:09
+    Author     : Cesar
+*/
+
+.col-md-12{
+    text-align:center;
+    background-color:#5FC8D5;
+    height:50px;
+}
+.col-md-6{
+    text-align:center;
+    height:65px;
+    background-color:red;
+    border:1px solid white;
+}
+
+.row{
+    border:1px solid white;
+}
+
+.col-md-4{
+    text-align:center;
+    height:65px;
+    background-color:#4EB2AF;
+    border:1px solid white;
+}
+
+.col-md-2{
+    background-color:#6F9755;
+    border:1px solid white;
+}
+
+.col-md-10{
+    background-color:#A0B24E;
+    border:1px solid white;
+}
+
+.col-md-5{
+    background-color:#D4B537;
+    border:1px solid white;
+}
+
