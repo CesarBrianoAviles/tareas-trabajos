@@ -8,25 +8,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>practica_java</title>
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css\newcss.css" rel="stylesheet" type="text/css" />
+        <script type="application/javascript" src="js/newjavascript.js"></script>
          
     </head>
     <body>
         <div class="modal-dialog text-center">
             <div class="col-sm-8 section">
                 <div class="col-12">
-                        <h2 id="titulo" >si presionas el boton 1 aqui saldra una imagen genial</h2>  
+                        <img id="imagenori"  src="image/imagen1.jpg" width="600" height="400">
                     </div>
             </div>
             <div class="col-sm-4 section1">
                 <div class="modal-content">
-                        <button id="boton1" class="btn btn-primary">imagen 1</button>
+                        <button id="boton1" onclick="changeImage()" class="btn btn-primary">imagen 2</button>
                         
                         <p></p>
-                        <button id="boton2" class="btn btn-primary">imagen 2</button> 
+                        <button id="boton2" onclick="changeImage1()" class="btn btn-primary">imagen 1</button> 
             </div>
             </div>    
         </div>
-        <script type="application/javascript" src="js\newjavascript.js"></script>
+           
     </body>
     
 </html>

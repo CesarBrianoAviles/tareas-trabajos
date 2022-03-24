@@ -5,24 +5,25 @@
 
        
 
-function cambiar(){
-    document.getElementById("titulo").innerHTML ="imagen1";
-                            
-}
-    document.getElementById("boton1").onclick = function(){
-    cambiar();
-    
-}
-  
-function cambiar1(){
-    document.getElementById("titulo").innerHTML ="imagen2";
-                            
-}
-    document.getElementById("boton2").onclick = function(){
-    cambiar1();
-    
-}  
 
+
+function changeImage(){
+    var image = document.getElementById('imagenori');
+    if(image.src.match("on")){
+        image.src="image/imagen2.jpg";
+    }else{
+        image.src="image/imagen1.jpg";
+    }
+} 
+
+function changeImage1(){
+    var image = document.getElementById('imagenori');
+    if(image.src.match("on")){
+        image.src="image/imagen1.jpg";
+    }else{
+        image.src="image/imagen2.jpg";
+    }
+} 
 
 
 

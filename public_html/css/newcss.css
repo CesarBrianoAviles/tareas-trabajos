@@ -9,12 +9,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 .section1{
     margin:0 auto;
-    margin-top: 60%;
+    margin-top: 20%;
     padding:0;
 }
 
 .section{
     margin:0 auto;
     margin-top: 20%;
-    padding:0;
+    padding:-30px;
 }
