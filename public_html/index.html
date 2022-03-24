@@ -8,6 +8,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>Login</title>
         <link href="css/bootstrap.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script type="application/javascript" src="aplicationsjs.js"></script>
     </head>
     <body>
         <div class="modal-dialog text-center">
@@ -19,14 +20,14 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <p></p>
                     <form class="col-12">
                         <div class="form-group" id="usuario">
-                            <input type="text" placeholder="nombre de usuario" />  
+                            <input id="user" type="text" placeholder="nombre de usuario" />  
                     </div>
                         <p></p>
                         <div class="form-group" id="contraseña">
-                            <input type="password" placeholder="contrasena" />  
+                            <input id="pass" type="password" placeholder="contrasena" />  
                     </div>
                         <p></p>
-                        <button type="submit" class="btn btn-primary">ingresar</button>   
+                        <button type="submit" onclick="setlogin()" class="btn btn-primary">ingresar</button>   
                     </form>
                     <div class="col-12 olvidar">
                         <a href="#">recordar contrasena</a>
